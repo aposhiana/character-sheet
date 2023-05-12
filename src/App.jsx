@@ -16,7 +16,7 @@ function App() {
                       />
                   </Flex>
               </Grid.Col>
-              <Grid.Col span={8}>
+              <Grid.Col span={8} sx={{ border: '1px solid black' }}>
                   <Grid>
                       <Grid.Col span={4}>
                           <TextInput
