@@ -1,4 +1,4 @@
-import { TextInput } from '@mantine/core';
+import { TextInput, Grid } from '@mantine/core';
 import './App.css'
 
 function App() {
@@ -7,24 +7,38 @@ function App() {
           <TextInput
               label="Character Name"
           />
-          <TextInput
-              label="Class & Level"
-          />
-          <TextInput
-              label="Background"
-          />
-          <TextInput
-              label="Player Name"
-          />
-          <TextInput
-              label="Race"
-          />
-          <TextInput
-              label="Alignment"
-          />
-          <TextInput
-              label="Experience Points"
-          />
+          <Grid>
+              <Grid.Col span={4}>
+                  <TextInput
+                      label="Class & Level"
+                  />
+              </Grid.Col>
+              <Grid.Col span={4}>
+                  <TextInput
+                      label="Background"
+                  />
+              </Grid.Col>
+              <Grid.Col span={4}>
+                  <TextInput
+                      label="Player Name"
+                  />
+              </Grid.Col>
+              <Grid.Col span={4}>
+                  <TextInput
+                      label="Race"
+                  />
+              </Grid.Col>
+              <Grid.Col span={4}>
+                  <TextInput
+                      label="Alignment"
+                  />
+              </Grid.Col>
+              <Grid.Col span={4}>
+                  <TextInput
+                      label="Experience Points"
+                  />
+              </Grid.Col>
+          </Grid>
       </>
   )
 }
