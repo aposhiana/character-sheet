@@ -1,4 +1,4 @@
-import { TextInput, Grid } from '@mantine/core';
+import { TextInput, Grid, Flex } from '@mantine/core';
 import './App.css'
 
 function App() {
@@ -6,9 +6,15 @@ function App() {
       <>
           <Grid>
               <Grid.Col span={4}>
-                  <TextInput
-                      label="Character Name"
-                  />
+                  <Flex
+                      mih="100%"
+                      justify="center"
+                      align="center"
+                  >
+                      <TextInput
+                          label="Character Name"
+                      />
+                  </Flex>
               </Grid.Col>
               <Grid.Col span={8}>
                   <Grid>
