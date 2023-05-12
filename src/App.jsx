@@ -13,6 +13,8 @@ function App() {
                   >
                       <TextInput
                           label="Character Name"
+                          w="100%"
+                          styles={ { root: { border: '1px solid black' }} }
                       />
                   </Flex>
               </Grid.Col>
