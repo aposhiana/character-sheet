@@ -1,6 +1,6 @@
 import {Text, TextInput} from "@mantine/core";
 
-export default function Ability() {
+export default function Ability({ name='Strength' }) {
     return (
         <>
             <Text
@@ -11,13 +11,13 @@ export default function Ability() {
                 fz="xl"
                 fw={700}
             >
-                Strength
+                {name}
             </Text>
             <TextInput
-                wrapperProps={{ title: 'Strength Score' }}
+                wrapperProps={{ title: `${name} Score` }}
             />
             <TextInput
-                wrapperProps={{ title: 'Strength Modifier' }}
+                wrapperProps={{ title: `${name} Modifier` }}
             />
         </>
     );
