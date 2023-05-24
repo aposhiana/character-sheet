@@ -5,7 +5,10 @@ describe('Abilities', () => {
     it('tests', () => {
         render(<Abilities />);
         expect(screen.getByText('Strength')).toBeInTheDocument();
-        expect(screen.getByTitle('Strength Score')).toBeInTheDocument();
-        expect(screen.getByTitle('Strength Modifier')).toBeInTheDocument();
+        expect(screen.getByText('Dexterity')).toBeInTheDocument();
+        expect(screen.getByText('Constitution')).toBeInTheDocument();
+        expect(screen.getByText('Intelligence')).toBeInTheDocument();
+        expect(screen.getByText('Wisdom')).toBeInTheDocument();
+        expect(screen.getByText('Charisma')).toBeInTheDocument();
     })
 });
