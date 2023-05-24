@@ -3,7 +3,7 @@ import Ability from './Ability';
 
 describe('Ability', () => {
     it('tests', () => {
-        render(<Ability />);
+        render(<Ability name="Strength" />);
         expect(screen.getByText('Strength')).toBeInTheDocument();
         expect(screen.getByTitle('Strength Score')).toBeInTheDocument();
         expect(screen.getByTitle('Strength Modifier')).toBeInTheDocument();

@@ -1,6 +1,6 @@
 import {Text, TextInput} from "@mantine/core";
 
-export default function Ability({ name='Strength' }) {
+export default function Ability({ name }) {
     return (
         <>
             <Text
