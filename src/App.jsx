@@ -5,6 +5,7 @@ import CharacterHeader from "./CharacterHeader";
 import Abilities from "./Abilities.jsx";
 import Inspiration from "./Inspiration.jsx";
 import ProficiencyBonus from "./ProficiencyBonus";
+import SavingThrows from "./SavingThrows";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
               <Grid.Col span={3}>
                   <Inspiration />
                   <ProficiencyBonus />
+                  <SavingThrows />
               </Grid.Col>
           </Grid>
       </>
