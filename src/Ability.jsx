@@ -1,5 +1,6 @@
 import {Text, TextInput} from "@mantine/core";
 
+// The modifier is derived from (ability - 10)/2
 export default function Ability({ name }) {
     return (
         <>
