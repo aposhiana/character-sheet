@@ -16,9 +16,7 @@ export default function Ability({ name }) {
             <TextInput
                 wrapperProps={{ title: `${name} Score` }}
             />
-            <TextInput
-                wrapperProps={{ title: `${name} Modifier` }}
-            />
+            <span aria-label={`${name} Modifier`}>-</span>
         </>
     );
 }

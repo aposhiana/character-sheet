@@ -6,6 +6,6 @@ describe('Ability', () => {
         render(<Ability name="Strength" />);
         expect(screen.getByText('Strength')).toBeInTheDocument();
         expect(screen.getByTitle('Strength Score')).toBeInTheDocument();
-        expect(screen.getByTitle('Strength Modifier')).toBeInTheDocument();
+        expect(screen.getByLabelText('Strength Modifier')).toBeInTheDocument();
     })
 });
